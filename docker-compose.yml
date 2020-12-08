@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  dev:
+    ports:
+      - "9002:9002"
+    build: .
+    volumes:
+      - type: bind
+        source: .
+        target: /cpp-dev
+        
+networks:
+  default:
+    external: 
+    # Use a custom driver
+      name: bridge
