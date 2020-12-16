@@ -39,7 +39,7 @@ target_link_libraries(myPhysXSDK
                                  ${PROJECT_SOURCE_DIR}/lib/Debug/libPhysXCommon_static_64.a
                                  ${PROJECT_SOURCE_DIR}/lib/Debug/libPhysXFoundation_static_64.a
 				OpenGL::OpenGL ${GLUT_LIBRARY}
--lm -ldl -lGLU -lGL)
+-lm -ldl -lGLU -lGL -lboost_system)
 add_dependencies(myPhysXSDK OpenGL::OpenGL)
 set(CompilerFlags
 CMAKE_CXX_FLAGS
