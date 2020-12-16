@@ -8,8 +8,15 @@ add_executable(myPhysXSDK ./src/Camera.cpp
                           ./src/phycsMain.cpp
                           ./src/RenderActor.cpp
                           ./src/RenderRogic.cpp
-                          ./src/SuperMain.cpp
-                          ./src/TestRender.cpp
+                          ./src/MyPhysxController.cpp
+                          ./src/GLUTCommandController.cpp
+                          ./src/PhysXFarcade.cpp
+                          ./src/OrderCommandRegister.cpp
+                          ./src/main.cpp
+                          ./src/MyExtention.cpp
+                          ./src/WebSocketpp_client.cpp
+                          ./src/WebSocketpp_server.cpp
+                          ./src/WebSocketppFarcade.cpp
 						  )
 
 SET (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -lz")

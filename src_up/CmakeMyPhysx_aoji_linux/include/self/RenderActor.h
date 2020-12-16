@@ -6,7 +6,7 @@ using namespace physx;
 #define MAX_NUM_ACTOR_SHAPES 128
 namespace RenderActor
 {
-	void setupDefaultWindow(const char* name);
+	void setupDefaultWindow(const char* name,double posx,double posy);
 	void setupDefaultRenderState();
 	void startRender(const PxVec3& cameraEye, const PxVec3& cameraDir, PxReal clipNear = 1.f, PxReal clipFar = 10000.f);
 	void finishRender();
