@@ -26,6 +26,7 @@ protected:
 	string CreateLog(int serchContainer,int sendContainer);
 
 public:
+	IPhysxEnvirement(){}
 	virtual void InitPhysicsEnviourment();
 	virtual void UpdateEnviroment(float dt);
 	virtual void keyPress(unsigned char key, const PxTransform& camera);

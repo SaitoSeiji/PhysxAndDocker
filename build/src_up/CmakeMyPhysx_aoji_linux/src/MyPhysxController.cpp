@@ -72,10 +72,47 @@ namespace MyPhysxController {
 			PhysxMain::ReflectEnv(input);
 			}, 'd');
 		//コマンド呼び出しの登録 どこから呼び出すかで処理が分岐===============================================================
-		if (input.substr(0, 4) == "glut") {//glutから命令
+		if (input.substr(0, 5) == "local") {
+			OrderCommandRegister::AddCommand(command_init_physx, [&]() {
+				PhysXFarcade::Awake(*new NormalPhysxEnvirement(true), *new IPhysxObjectCreator());
+				PhysXFarcade::SetCamera(GLUTCommandController::GetCamera());
+				});
+
+
+			//GLUTとコマンドの対応の作成
+			GLUTCommandController::AddCallbacl_awake([=]() {
+				OrderCommandRegister::RecieveCommand(command_init_physx);
+				});
+			GLUTCommandController::AddCallbacl_idle([=]() {
+				OrderCommandRegister::RecieveCommand(command_update);
+				});
+			GLUTCommandController::AddCallbacl_render([=]() {
+				OrderCommandRegister::RecieveCommand(command_render);
+				});
+			GLUTCommandController::AddCallbacl_input([=](unsigned char c, int x, int y) {
+				stringstream ss;
+				ss << command_input << "," << c << "," << x << "," << y;
+				string command = ss.str();
+				OrderCommandRegister::RecieveCommand(command);
+				});
+			GLUTCommandController::AddCallbacl_motion([=](int x, int y) {
+				stringstream ss;
+				ss << command_motion << "," << x << "," << y;
+				string command = ss.str();
+				OrderCommandRegister::RecieveCommand(command);
+				});
+			GLUTCommandController::AddCallbacl_mouse([=](int button, int state, int x, int y) {
+				stringstream ss;
+				ss << command_mouse << "," << button << "," << state << "," << x << "," << y;
+				string command = ss.str();
+				OrderCommandRegister::RecieveCommand(command);
+				});
+			GLUTCommandController::StartDisplay("client", 1000, 100);
+		}
+		else if (input.substr(0, 4) == "glut") {//glutから命令
 
 			OrderCommandRegister::AddCommand(command_init_physx, [&]() {
-				PhysXFarcade::Awake(*new NormalPhysxEnvirement(), *new StaticObjectCreator());
+				PhysXFarcade::Awake(*new NormalPhysxEnvirement(false), *new StaticObjectCreator());
 				PhysXFarcade::SetCamera(GLUTCommandController::GetCamera());
 				});
 
@@ -182,27 +219,83 @@ namespace MyPhysxController {
 				});
 		}
 		else if (input.substr(0, 9) == "ws_offgui") {
-			OrderCommandRegister::AddCommand(command_init_physx, [&]() {
-				PhysXFarcade::Awake(*new NormalPhysxEnvirement(), *new IPhysxObjectCreator());
+			//OrderCommandRegister::AddCommand(command_init_physx, [&]() {
+			//	PhysXFarcade::Awake(*new NormalPhysxEnvirement(), *new IPhysxObjectCreator());
+			//	PhysXFarcade::SetCamera(GLUTCommandController::GetCamera());
+			//	});
+
+			////GLUTとコマンドの対応の作成
+			//GLUTCommandController::AddCallbacl_awake([=]() {
+			//	OrderCommandRegister::RecieveCommand(command_init_physx);
+			//	});
+
+			//GLUTCommandController::AddCallbacl_idle([=]() {
+			//	OrderCommandRegister::RecieveCommand(command_update);
+			//	});
+			////webSocketで送られてきたメッセージをコマンドとして呼ぶ
+			//WebSocketppFarcade::SetRecieveMessage(OrderCommandRegister::RecieveCommand);
+
+			////初期化命令の受け取り
+			//OrderCommandRegister::AddCommand(command_init_glut, [] {
+			//	std::thread th([] {GLUTCommandController::StartDisplay_guiOff(); });
+			//	th.detach();
+			//	});
+
+
+
+			OrderCommandRegister::AddCommand(command_init_physx, [&]() {//環境の初期化
+				PhysXFarcade::Awake(*new NormalPhysxEnvirement_child(), *new IPhysxObjectCreator());
 				PhysXFarcade::SetCamera(GLUTCommandController::GetCamera());
 				});
-
 			//GLUTとコマンドの対応の作成
 			GLUTCommandController::AddCallbacl_awake([=]() {
+
 				OrderCommandRegister::RecieveCommand(command_init_physx);
+				});
+			GLUTCommandController::AddCallbacl_render([=]() {
+				OrderCommandRegister::RecieveCommand(command_render);
 				});
 
 			GLUTCommandController::AddCallbacl_idle([=]() {
 				OrderCommandRegister::RecieveCommand(command_update);
-				});
-			//webSocketで送られてきたメッセージをコマンドとして呼ぶ
-			WebSocketppFarcade::SetRecieveMessage(OrderCommandRegister::RecieveCommand);
+				}); GLUTCommandController::AddCallbacl_input([=](unsigned char c, int x, int y) {
+					stringstream ss;
+					ss << command_input << "," << c << "," << x << "," << y;
+					string command = ss.str();
+					OrderCommandRegister::RecieveCommand(command);
+					//WebSocketppFarcade::Send(command);
+					});
+				GLUTCommandController::AddCallbacl_motion([=](int x, int y) {
+					stringstream ss;
+					ss << command_motion << "," << x << "," << y;
+					string command = ss.str();
+					OrderCommandRegister::RecieveCommand(command);
+					//WebSocketppFarcade::Send(command);
+					});
+				GLUTCommandController::AddCallbacl_mouse([=](int button, int state, int x, int y) {
+					stringstream ss;
+					ss << command_mouse << "," << button << "," << state << "," << x << "," << y;
+					string command = ss.str();
+					OrderCommandRegister::RecieveCommand(command);
+					//WebSocketppFarcade::Send(command);
+					});
 
-			//初期化命令の受け取り
-			OrderCommandRegister::AddCommand(command_init_glut, [] {
-				std::thread th([] {GLUTCommandController::StartDisplay_guiOff(); });
-				th.detach();
-				});
+
+				//webSocketで送られてきたメッセージをコマンドとして呼ぶ
+				WebSocketppFarcade::SetRecieveMessage(OrderCommandRegister::RecieveCommand);
+
+				//初期化命令の受け取り
+				OrderCommandRegister::AddCommand(command_init_glut, [] {
+					//GLUTCommandController::StartDisplay("server");
+
+					//StartDisplayすると処理が止まってserverListenできなくなるので別スレッドで呼んでいる
+					//雑に実装したのでそのうち問題になりそう
+					//遠隔側の描画はデバッグ用なのであんまり問題ないかな？
+
+					if (PhysXFarcade::IsInited())return;
+					std::thread th([] {GLUTCommandController::StartDisplay_guiOff(); });
+					th.detach();
+					});
 		}
 	}
 	//

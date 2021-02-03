@@ -1,4 +1,4 @@
-# Install script for directory: /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2
+# Install script for directory: /cpp-dev/src_up/CmakeMyPhysx_aoji_linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -31,7 +31,12 @@ class NormalPhysxEnvirement :
 	int clientCount = 2;//クライアントの数　まだ固定値
 	vector<bool> isWaiting;
 	vector<string> returnData;
+
+	bool _islocal;
 public:
+	NormalPhysxEnvirement(bool local):IPhysxEnvirement() {
+		_islocal = local;
+	}
 	 void InitPhysicsEnviourment() override;
 	  void UpdateEnviroment(float dt) override;
 	  void keyPress(unsigned char key, const PxTransform& camera) override;

@@ -35,16 +35,23 @@ int main() {
 		if (inputs[0] == "quit") {
 			done = true;
 		}
-		else if (inputs[0]== "jsconnect") {
+		else if (inputs[0] == "local") {
 			done = true;
-			if (inputs.size() >= 3 && inputs[2] == "-guioff")MyPhysxController::MainLoop_switch("ws_offgui");
-			else 	MyPhysxController::MainLoop_switch("websocket");
-			WebSocketppFarcade::ConnectAndRecieve(inputs[1]);
+			MyPhysxController::MainLoop_switch("local");
 		}
-		else if (inputs[0] == "connect") {
+		else if (inputs[0] == "host") {
 			done = true;
 			WebSocketppFarcade::Connect(inputs[1]);
 			MyPhysxController::MainLoop_switch("glut");
+		}
+		else if (inputs[0]== "client") {
+			done = true;
+			if (inputs.size() >= 3 && inputs[2] == "-guioff") {
+				MyPhysxController::MainLoop_switch("ws_offgui");
+				cout << "guioff" << endl;
+			}
+			else 	MyPhysxController::MainLoop_switch("websocket");
+			WebSocketppFarcade::ConnectAndRecieve(inputs[1]);
 		}
 		else {
 			std::cout << "> Unrecognized Command" << std::endl;

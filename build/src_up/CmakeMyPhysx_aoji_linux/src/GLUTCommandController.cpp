@@ -97,7 +97,10 @@ namespace GLUTCommandController {
 		if (awakeCallback)awakeCallback();
 		while (true)
 		{
-			if (IdleCallback)idleCallback();
+			if (IdleCallback) {
+				idleCallback();
+				cout << "noguiupdate" << endl;
+			}
 		}
 	}
 

@@ -56,22 +56,8 @@ void NormalPhysxEnvirement_child::keyPress(unsigned char key, const PxTransform&
     case 'B':
         //CreateStack_ballpool(length_x, height, length_z, _ballsize);
         break;
-    case 'V':
-        wallmoveFlag = !wallmoveFlag;
-        break;
-    case 'C':
-        //cout << GetLog(-1) << endl;
-        cout << CreateLog(0, _containerCount) << endl;
-        break;
     case 'X':
-
-        //for (int i = 0; i <= 1; i++) {
-        //    WebSocketppFarcade::Send("glut_init", i);
-        //    std::this_thread::sleep_for(std::chrono::milliseconds(100));//一気に送るとエラー吐くので待ってる　くそコード
-        //    stringstream ss;
-        //    ss << "envirement_objectdata," << GetLog(i);
-        //    WebSocketppFarcade::Send(ss.str(), i);
-        //}
+        wallmoveFlag = !wallmoveFlag;
         break;
     }
 }

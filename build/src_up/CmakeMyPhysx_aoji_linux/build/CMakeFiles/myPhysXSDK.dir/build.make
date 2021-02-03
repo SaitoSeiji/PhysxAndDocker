@@ -62,10 +62,10 @@ RM = /opt/cmake-3.18.4-Linux-x86_64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2
+CMAKE_SOURCE_DIR = /cpp-dev/src_up/CmakeMyPhysx_aoji_linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build
+CMAKE_BINARY_DIR = /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myPhysXSDK.dir/depend.make
@@ -78,341 +78,341 @@ include CMakeFiles/myPhysXSDK.dir/flags.make
 
 CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o: ../src/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/Camera.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/Camera.cpp > CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/Camera.cpp > CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/Camera.cpp -o CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/Camera.cpp -o CMakeFiles/myPhysXSDK.dir/src/Camera.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o: ../src/CSVOutPuter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPuter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPuter.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPuter.cpp > CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPuter.cpp > CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPuter.cpp -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPuter.cpp -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPuter.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o: ../src/CSVOutPutFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPutFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPutFactory.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPutFactory.cpp > CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPutFactory.cpp > CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/CSVOutPutFactory.cpp -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/CSVOutPutFactory.cpp -o CMakeFiles/myPhysXSDK.dir/src/CSVOutPutFactory.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o: ../src/DtCulcurator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/DtCulcurator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/DtCulcurator.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/DtCulcurator.cpp > CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/DtCulcurator.cpp > CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/DtCulcurator.cpp -o CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/DtCulcurator.cpp -o CMakeFiles/myPhysXSDK.dir/src/DtCulcurator.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o: ../src/FrameAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/FrameAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/FrameAction.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/FrameAction.cpp > CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/FrameAction.cpp > CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/FrameAction.cpp -o CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/FrameAction.cpp -o CMakeFiles/myPhysXSDK.dir/src/FrameAction.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o: ../src/phycsMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/phycsMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/phycsMain.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/phycsMain.cpp > CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/phycsMain.cpp > CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/phycsMain.cpp -o CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/phycsMain.cpp -o CMakeFiles/myPhysXSDK.dir/src/phycsMain.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o: ../src/RenderActor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderActor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderActor.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderActor.cpp > CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderActor.cpp > CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderActor.cpp -o CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderActor.cpp -o CMakeFiles/myPhysXSDK.dir/src/RenderActor.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o: ../src/RenderRogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderRogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderRogic.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderRogic.cpp > CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderRogic.cpp > CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/RenderRogic.cpp -o CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/RenderRogic.cpp -o CMakeFiles/myPhysXSDK.dir/src/RenderRogic.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../src/MyPhysxController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyPhysxController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyPhysxController.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyPhysxController.cpp > CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyPhysxController.cpp > CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyPhysxController.cpp -o CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyPhysxController.cpp -o CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o: ../src/GLUTCommandController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/GLUTCommandController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/GLUTCommandController.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/GLUTCommandController.cpp > CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/GLUTCommandController.cpp > CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/GLUTCommandController.cpp -o CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/GLUTCommandController.cpp -o CMakeFiles/myPhysXSDK.dir/src/GLUTCommandController.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../src/PhysXFarcade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysXFarcade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysXFarcade.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysXFarcade.cpp > CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysXFarcade.cpp > CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysXFarcade.cpp -o CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysXFarcade.cpp -o CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o: ../src/OrderCommandRegister.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/OrderCommandRegister.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/OrderCommandRegister.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/OrderCommandRegister.cpp > CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/OrderCommandRegister.cpp > CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/OrderCommandRegister.cpp -o CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/OrderCommandRegister.cpp -o CMakeFiles/myPhysXSDK.dir/src/OrderCommandRegister.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/main.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/main.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/main.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/main.cpp > CMakeFiles/myPhysXSDK.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/main.cpp > CMakeFiles/myPhysXSDK.dir/src/main.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/main.cpp -o CMakeFiles/myPhysXSDK.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/main.cpp -o CMakeFiles/myPhysXSDK.dir/src/main.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o: ../src/MyExtention.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyExtention.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyExtention.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyExtention.cpp > CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyExtention.cpp > CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/MyExtention.cpp -o CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/MyExtention.cpp -o CMakeFiles/myPhysXSDK.dir/src/MyExtention.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o: ../src/WebSocketpp_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_client.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_client.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_client.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_client.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_client.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_client.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o: ../src/WebSocketpp_server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_server.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_server.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_server.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketpp_server.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketpp_server.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketpp_server.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o: ../src/WebSocketppFarcade.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketppFarcade.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketppFarcade.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketppFarcade.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketppFarcade.cpp > CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/WebSocketppFarcade.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/WebSocketppFarcade.cpp -o CMakeFiles/myPhysXSDK.dir/src/WebSocketppFarcade.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o: ../src/IPhysxEnvirement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxEnvirement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxEnvirement.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxEnvirement.cpp > CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxEnvirement.cpp > CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxEnvirement.cpp -o CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxEnvirement.cpp -o CMakeFiles/myPhysXSDK.dir/src/IPhysxEnvirement.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o: ../src/IPhysxObjectCreator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxObjectCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxObjectCreator.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxObjectCreator.cpp > CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxObjectCreator.cpp > CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IPhysxObjectCreator.cpp -o CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IPhysxObjectCreator.cpp -o CMakeFiles/myPhysXSDK.dir/src/IPhysxObjectCreator.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o: ../src/NormalPhysxEnvirement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement.cpp > CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement.cpp > CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement.cpp -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement.cpp -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o: ../src/NormalPhysxEnvirement_child.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement_child.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement_child.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement_child.cpp > CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement_child.cpp > CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/NormalPhysxEnvirement_child.cpp -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/NormalPhysxEnvirement_child.cpp -o CMakeFiles/myPhysXSDK.dir/src/NormalPhysxEnvirement_child.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o: ../src/PhysxMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysxMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysxMain.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysxMain.cpp > CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysxMain.cpp > CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/PhysxMain.cpp -o CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/PhysxMain.cpp -o CMakeFiles/myPhysXSDK.dir/src/PhysxMain.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o: ../src/StaticObjectCreator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/StaticObjectCreator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/StaticObjectCreator.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/StaticObjectCreator.cpp > CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/StaticObjectCreator.cpp > CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/StaticObjectCreator.cpp -o CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/StaticObjectCreator.cpp -o CMakeFiles/myPhysXSDK.dir/src/StaticObjectCreator.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o: ../src/ObjectDataHolder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/ObjectDataHolder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/ObjectDataHolder.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/ObjectDataHolder.cpp > CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/ObjectDataHolder.cpp > CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/ObjectDataHolder.cpp -o CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/ObjectDataHolder.cpp -o CMakeFiles/myPhysXSDK.dir/src/ObjectDataHolder.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o: ../src/IJudgePartial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IJudgePartial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IJudgePartial.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IJudgePartial.cpp > CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IJudgePartial.cpp > CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/IJudgePartial.cpp -o CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/IJudgePartial.cpp -o CMakeFiles/myPhysXSDK.dir/src/IJudgePartial.cpp.s
 
 CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o: CMakeFiles/myPhysXSDK.dir/flags.make
 CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o: ../src/SimpleJudgePartial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/SimpleJudgePartial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.o -c /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/SimpleJudgePartial.cpp
 
 CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/SimpleJudgePartial.cpp > CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/SimpleJudgePartial.cpp > CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.i
 
 CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/src/SimpleJudgePartial.cpp -o CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/src/SimpleJudgePartial.cpp -o CMakeFiles/myPhysXSDK.dir/src/SimpleJudgePartial.cpp.s
 
 # Object files for target myPhysXSDK
 myPhysXSDK_OBJECTS = \
@@ -483,7 +483,7 @@ myPhysXSDK: ../lib/Debug/libPhysXFoundation_static_64.a
 myPhysXSDK: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 myPhysXSDK: /usr/lib/x86_64-linux-gnu/libglut.so
 myPhysXSDK: CMakeFiles/myPhysXSDK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable myPhysXSDK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable myPhysXSDK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/myPhysXSDK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -496,6 +496,6 @@ CMakeFiles/myPhysXSDK.dir/clean:
 .PHONY : CMakeFiles/myPhysXSDK.dir/clean
 
 CMakeFiles/myPhysXSDK.dir/depend:
-	cd /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2 /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2 /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build /cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles/myPhysXSDK.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cpp-dev/src_up/CmakeMyPhysx_aoji_linux /cpp-dev/src_up/CmakeMyPhysx_aoji_linux /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build /cpp-dev/src_up/CmakeMyPhysx_aoji_linux/build/CMakeFiles/myPhysXSDK.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myPhysXSDK.dir/depend
 
