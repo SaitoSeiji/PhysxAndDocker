@@ -1,0 +1,3 @@
+/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles/rebuild_cache.dir
+/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles/edit_cache.dir
+/cpp-dev/src_up/CmakeMyPhysx_aoji_linux2/build/CMakeFiles/myPhysXSDK.dir
