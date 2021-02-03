@@ -7,9 +7,8 @@
 #include "PhysxMain.h"
 #include "IPhysxEnvirement.h"
 #include "IPhysxObjectCreator.h"
+#include "CSVOutPutFactory.h"
 
-class IPhysxEnvirement;//循環参照対策　そのうち循環参照じたいをやめる
-class IPhysxObjectCreator;//循環参照対策　そのうち循環参照じたいをやめる
 namespace PhysXFarcade {
 	//void Awake();
 	void Awake(IPhysxEnvirement& env, IPhysxObjectCreator& objc);
@@ -25,4 +24,8 @@ namespace PhysXFarcade {
 
 	void SetActive_update(bool flag);
 	void SetActive_rendering(bool flag);
+
+	//記録用
+	void StartCSVRecord();
+	void EndCSVRecord();
 }

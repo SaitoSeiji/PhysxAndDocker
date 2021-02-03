@@ -72,5 +72,9 @@ public:
 		if (_dataHolderList[index]->_datalist.count(key) == 0)return NULL;
 		return _dataHolderList[index]->_datalist.at(key);
 	}
+
+	 int GetObjeCount() {
+		return _objCount;
+	}
 };
 

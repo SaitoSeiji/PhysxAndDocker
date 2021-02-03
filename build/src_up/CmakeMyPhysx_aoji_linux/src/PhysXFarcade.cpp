@@ -11,6 +11,11 @@ namespace PhysXFarcade {
 	bool inited = false;
 	bool _isActive_update = true;//trueならupdateの処理を行う
 	bool _isActive_rendering = true;//trueならレンダリングの処理を行う
+
+	CSVOutPutFactory _csvOutPutFactory;
+	bool _isActive_csvRecord = false;
+
+	IPhysxObjectCreator* _objCreator;
 	//void Awake()
 	//{
 	//	//initPhysics(true);
@@ -20,6 +25,7 @@ namespace PhysXFarcade {
 		PhysxMain::SetObjectCreator(objc);
 		PhysxMain::InitPhysics(true);
 		inited = true;
+		_objCreator = &objc;
 	}
 	void Update()
 	{
@@ -29,21 +35,29 @@ namespace PhysXFarcade {
 		}
 		_physcsFrameActor.Update();
 
-		float idledt = _physcsFrameActor.GetProgressTime();
+		if (_isActive_csvRecord) {
+			float idledt = _physcsFrameActor.GetProgressTime();//フレームレート
+			_csvOutPutFactory.Update("update", idledt);
+			_csvOutPutFactory.Update("objCount_update", _objCreator->GetObjeCount());
+		}
+
 		//cout << "idledt " << idledt << " sec" << "\n";
 		//フレーム処理
 
 		if (_physcsFrameActor.IsOverFrameRate()) {
-			auto start = chrono::system_clock::now();
 			float dt = _physcsFrameActor.GetProgressTime();
 			float stepDt = dt * _physicsTimeScale;
 			_physcsFrameActor.Refresh();
+
+
+			auto start = chrono::system_clock::now();//処理時間計測開始
 			PhysxMain::StepPhysics(stepDt);
-			/*stepPhysics(stepDt);*/
-			//auto dur = chrono::system_clock::now() - start;
-			//auto misec = std::chrono::duration_cast<std::chrono::microseconds>(dur).count();
-			//float sec = misec / 1000000.0f;
-			//_outFactory.Update("simulateTime", sec);
+			if (!_isActive_csvRecord)return;
+			auto dur = chrono::system_clock::now() - start;
+			auto misec = std::chrono::duration_cast<std::chrono::microseconds>(dur).count();//処理時間(msec)
+			float sec = misec / 1000000.0f;//処理時間(sec)
+			_csvOutPutFactory.Update("simulate", sec);
+			_csvOutPutFactory.Update("objCount_simulate", _objCreator->GetObjeCount());
 			//_outFactory.Update("objectCount", GetObjectCount());
 			//cout << "pSimulate: " << sec << ",interval: " << dt / _physicsTimeScale << "\n";
 			//cout << GetObjectCount() << "\n";
@@ -59,8 +73,13 @@ namespace PhysXFarcade {
 	void RecieveInput(unsigned char input, int x, int y)
 	{
 		if (input == 27) {
-			//cout << "output file\n";
+			cout << "output file"<<endl;
+			EndCSVRecord();
 			exit(0);
+		}
+		if (toupper(input) == 'R') {
+			cout << "startRecord"<<endl;
+			StartCSVRecord();
 		}
 
 		_sCamera->handleKey(input, x, y);
@@ -110,5 +129,18 @@ namespace PhysXFarcade {
 	}
 	void SetActive_rendering(bool flag) {
 		//_isActive_rendering = flag;
+	}
+
+	void StartCSVRecord() {
+		_isActive_csvRecord = true;
+		_csvOutPutFactory.AddDataSet("objCount_update", 5);
+		_csvOutPutFactory.AddDataSet("objCount_simulate", 5);
+		_csvOutPutFactory.AddDataSet("update", 5);
+		_csvOutPutFactory.AddDataSet("simulate", 5);
+	}
+
+	void EndCSVRecord() {
+		if(_isActive_csvRecord)_csvOutPutFactory.OutPutCSV();
+		_isActive_csvRecord = false;
 	}
 }

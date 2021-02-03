@@ -938,6 +938,8 @@ CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/physxshared/in
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/physxshared/include/foundation/PxVec4.h
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/physxshared/include/foundation/unix/PxUnixIntrinsics.h
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/physxshared/include/foundation/windows/PxWindowsIntrinsics.h
+CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/self/CSVOutPutFactory.h
+CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/self/CSVOutPuter.h
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/self/Camera.h
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/self/DtCulcurator.h
 CMakeFiles/myPhysXSDK.dir/src/MyPhysxController.cpp.o: ../include/self/FrameAction.h
@@ -1691,6 +1693,8 @@ CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/physxshared/include
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/physxshared/include/foundation/PxVec4.h
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/physxshared/include/foundation/unix/PxUnixIntrinsics.h
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/physxshared/include/foundation/windows/PxWindowsIntrinsics.h
+CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/self/CSVOutPutFactory.h
+CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/self/CSVOutPuter.h
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/self/Camera.h
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/self/DtCulcurator.h
 CMakeFiles/myPhysXSDK.dir/src/PhysXFarcade.cpp.o: ../include/self/FrameAction.h
@@ -2794,6 +2798,8 @@ CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/physxshared/include/foundat
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/physxshared/include/foundation/PxVec4.h
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/physxshared/include/foundation/unix/PxUnixIntrinsics.h
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/physxshared/include/foundation/windows/PxWindowsIntrinsics.h
+CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/self/CSVOutPutFactory.h
+CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/self/CSVOutPuter.h
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/self/Camera.h
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/self/DtCulcurator.h
 CMakeFiles/myPhysXSDK.dir/src/main.cpp.o: ../include/self/FrameAction.h
