@@ -1,0 +1,1 @@
+#include "IJudgePartial.h"
