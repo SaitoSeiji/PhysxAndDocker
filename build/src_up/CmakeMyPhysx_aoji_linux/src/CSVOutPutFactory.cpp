@@ -3,9 +3,9 @@
 
 string CreateTextName2();
 
-void CSVOutPutFactory::AddDataSet(string key, int distance) {
+void CSVOutPutFactory::AddDataSet(string key, int distance,int maxDataSize) {
 	_keyDatas.push_back(key);
-	_csvDatas.push_back(new CSVOutPuter("factory", distance));
+	_csvDatas.push_back(new CSVOutPuter("factory", distance,maxDataSize));
 }
 void CSVOutPutFactory::Update(string key, float data) {
 	for (int i = 0; i < _keyDatas.size(); i++) {

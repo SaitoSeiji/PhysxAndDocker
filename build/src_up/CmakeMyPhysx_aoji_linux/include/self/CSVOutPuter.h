@@ -10,9 +10,10 @@ class CSVOutPuter
 	vector<float> _outData;
 	int _setDataDistance;
 	int _nowCount;
+	int _maxDataSize;//これよりデータサイズが大きい場合は間引きされる
 	string _title;
 public:
-	CSVOutPuter(string title,int distance);
+	CSVOutPuter(string title,int distance,int datasize);
 	void TryAddData(float data);
 	string GetOutPutText();
 	void OutPutCSV();

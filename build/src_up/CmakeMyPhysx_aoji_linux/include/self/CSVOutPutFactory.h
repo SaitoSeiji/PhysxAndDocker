@@ -11,7 +11,7 @@ class CSVOutPutFactory
 	vector<string> _keyDatas;
 	vector<CSVOutPuter*> _csvDatas;
 public:
-	void AddDataSet(string title,int distance);
+	void AddDataSet(string title,int distance,int maxDataSize);
 	void Update(string key, float data);
 	void OutPutCSV();
 };
