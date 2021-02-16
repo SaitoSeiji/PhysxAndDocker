@@ -4,7 +4,7 @@ using namespace std;
 using namespace physx;
 #define PX_RELEASE(x)	if(x)	{ x->release(); x = NULL;	}
 #define PVD_USEDEBUG false
-#define USE_GPU true
+#define USE_GPU false
 namespace PhysxMain {
 	
 	PxDefaultAllocator      gAllocator;

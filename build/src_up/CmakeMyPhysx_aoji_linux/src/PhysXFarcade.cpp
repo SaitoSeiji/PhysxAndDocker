@@ -126,9 +126,9 @@ namespace PhysXFarcade {
 	void StartCSVRecord() {
 		_isActive_csvRecord = true;
 		//_csvOutPutFactory.AddDataSet("objCount_update", 5);
-		_csvOutPutFactory.AddDataSet("objCount", 100,1);
-		_csvOutPutFactory.AddDataSet("update", 5,6000);
-		_csvOutPutFactory.AddDataSet("simulate", 5,6000);
+		_csvOutPutFactory.AddDataSet("objCount", 1,1);
+		_csvOutPutFactory.AddDataSet("update", 1,500);
+		_csvOutPutFactory.AddDataSet("simulate", 1,500);
 	}
 
 	void EndCSVRecord() {
